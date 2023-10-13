@@ -15,7 +15,7 @@ match planeta.upper():
         print("Peso em %s é %.2f" %(planeta,peso*2.64))
     case "SATURNO":
         print("Peso em %s é %.2f" %(planeta,peso*1.15))
-    case "Urano":
+    case "URANO":
         print("Peso em %s é %.2f" %(planeta,peso*1.17))
     case _:
         print("Planeta não Identificado")
