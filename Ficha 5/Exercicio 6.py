@@ -11,7 +11,7 @@ def standardName(name):
         elif i == (len(listName)-1):#imprime o ultimo e termina
             print(listName[i], end=" ")
             exit()
-        else:#imprime so a primeiraletra e acrescenta um ponto
+        else:#imprime so a primeira letra e acrescenta um ponto
             print(listName[i][0]+".", end=" ")
 name = str(input("Insira a frase:\n\n\t\t"))
 print(standardName(name))
