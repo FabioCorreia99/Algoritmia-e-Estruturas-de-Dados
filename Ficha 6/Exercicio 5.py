@@ -9,14 +9,17 @@ def highestSales(sales):
     """
         Return the month with the highest volume sales
     """
-    return int(sales.index(max(sales)))
+    return int(sales.index(max(sales)))#valor max
 def LowestSales(sales):
     """
         Return the month with the Lowest volume sales
     """
-    return int(sales.index(min(sales)))
+    return int(sales.index(min(sales)))#valor min
 def averageSales(sales):
-    return float(sum(sales)/12)
+    """
+        Return the Average sales of the year
+    """
+    return float(sum(sales)/12)#retorna a media
 
 data = ["Janeiro","Fevereiro","Março","Abril","Maio","Junho","Julho","Agosto","Setembro","Outubro","Novembro","Dezembro"]
 sales=[]
