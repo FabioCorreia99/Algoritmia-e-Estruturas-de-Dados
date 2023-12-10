@@ -1,0 +1,15 @@
+Portugal;Europa
+Espanha;Europa
+França;Europa
+Itália;Europa
+Suécia;Europa
+EUA;América
+Brasil;América
+Peru;América
+Colombia;América
+China;Asia
+Japão;Asia
+Tailandia;Asia
+Malásia;Asia
+Nigeria;Africa
+Argentina;America

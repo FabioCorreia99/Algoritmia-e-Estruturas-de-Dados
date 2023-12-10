@@ -10,4 +10,3 @@ for i in range(escolha):
     media += numero # somar as opções para fazer a media 
 print("Maior:%i"%maior)
 print("Media:%.2f"%(float(media/escolha)))
-
