@@ -25,15 +25,17 @@ window.geometry("1400x600")
 text_box = Text(window, width=40, height=10)
 text_box.place(x=10, y=10)
 
-ler_button = Button(window,state="disabled", text="Ler Ficheiro", )
+ler_button = Button(window, text="Ler Ficheiro", )
 ler_button.place(x=10, y=300)
 
 pais_label = Label(window, text="País:")
 pais_label.place(x=10,y=200)
 pais_entry = Entry(window, width=20, textvariable="pais")
+pais_entry.place(x=40,y=200)
 
 cont_label = Label(window, text="Continente:")
 cont_label.place(x=10,y=250)
 cont_entry = Entry(window, width=20, textvariable="continente")
+cont_entry.place(x=80,y=250)
 
 window.mainloop()
